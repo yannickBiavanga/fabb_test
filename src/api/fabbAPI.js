@@ -1,16 +1,16 @@
 import RNFS from 'react-native-fs';
 
-export const CGU_URL = "http://192.168.1.67/fabb/_client/_people/cgu.html";
-export const BASE_URL = "http://192.168.1.67/fabb/_client/_people/srv/";
-export const LOGO_URL = "http://192.168.1.67/fabb/img/logo/";
-// const BILLET_URL="http://192.168.43.251/fabb/_client/docs/";
-const BILLET_URL = "http://192.168.1.67/fabb/_client/srv/vue/VueDisplayBillet.php?ticket_adrs=";
+// export const CGU_URL = "http://192.168.1.67/fabb/_client/_people/cgu.html";
+// export const BASE_URL = "http://192.168.1.67/fabb/_client/_people/srv/";
+// export const LOGO_URL = "http://192.168.1.67/fabb/img/logo/";
+// // const BILLET_URL="http://192.168.43.251/fabb/_client/docs/";
+// const BILLET_URL = "http://192.168.1.67/fabb/_client/srv/vue/VueDisplayBillet.php?ticket_adrs=";
 
-/* export const CGU_URL = "https://www.ellipse-concept.com/fabb/_client/_people/cgu.html";
+export const CGU_URL = "https://www.ellipse-concept.com/fabb/_client/_people/cgu.html";
 export const BASE_URL = "https://www.ellipse-concept.com/fabb/_client/_people/srv/";
 export const LOGO_URL = "https://www.ellipse-concept.com/fabb/img/logo/";
 //const BILLET_URL="https://www.ellipse-concept.com/fabb/_client/docs/"; 
-const BILLET_URL = "https://www.ellipse-concept.com/fabb/_client/srv/vue/VueDisplayBillet.php?ticket_adrs="; */
+const BILLET_URL = "https://www.ellipse-concept.com/fabb/_client/srv/vue/VueDisplayBillet.php?ticket_adrs=";
 
 export const getAgencesFromApi = async () => {
     const url = BASE_URL + "ctrGet.php";
